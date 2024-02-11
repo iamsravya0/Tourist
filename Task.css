@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.bgimg{
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/231/13/desktop-wallpaper-how-long-does-it-take-to-become-a-full-stack-developer-full-stack-developer.jpg);
+    width:100vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    color:#f6f9f6;
+    font-size: 60px;
+    margin-left: -3%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+.para{
+    color:white;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+    justify-content: center;
+    font-size: 25px;
+    }
+.my-heading{
+    display: flex;
+    justify-content: flex-end;
+}
+.lead-para{
+    
+}    

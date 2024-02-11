@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server</title>
+</head>
+<body>
+    <script>
+        fetch('https://reqres.in/api/users?page=2')
+        .then((response)=>{
+            console.log(response);
+            return response.json();
+        })
+        .then((responseJSON)=>{
+            console.log(responseJSON)
+        })
+        //post
+        fetch('https://reqres.in/api/users',{
+            method:'POST',
+            headers:{
+                'Content-Type':'application/json',
+            },
+            body:JSON.stringify({
+                name:'johnpaul',
+                age:78,
+                place:'ALBAMA',
+                Job:'Developer'
+            })
+        })
+        .then((response)=>{
+            console.log(response);
+            return response.json();
+        }).then((responseJSON)=>{
+            console.log(responseJSON)
+        })
+        //put
+        fetch('https://reqres.in/api/users/2',{
+            method:'PUT',
+            headers:{
+                'Content-Type':'application/json'
+            },
+            body:JSON.stringify({
+                name:'promodh',
+                age:325,
+            })
+        })
+        .then((response)=>{
+            console.log(response);
+            return response.json();
+        }).then((responseJSON)=>{
+            console.log(responseJSON)
+        })
+        //delete
+        fetch('https://reqres.in/api/users/2',{
+            method:'DELETE',
+            headers:{
+                'Content-Type':'application/json'
+            },
+
+        })
+        .then((response)=>{
+            console.log(response);
+           
+        }).then((responseJSON)=>{
+            console.log(responseJSON)
+        })
+
+    </script>
+</body>
+</html>
