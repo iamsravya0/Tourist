@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    
+}
+.bgimg{
+    background-image: url(https://images2.alphacoders.com/114/1146715.jpg);
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    color:#f6f9f6;
+    font-size: 60px;
+    margin-left: -3%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para{
+color:white;
+display: flex;
+justify-content: flex-start;
+margin-left: 5%;
+
+}
+.btnn{
+    background-color: #b1152f;
+    border:none;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    padding: 1%;
+    
+    
+    margin-left: 5%;
+    width:20%;
+    text-align: center;
+}
+@media screen and (max-width:768px){
+    .btnn{
+        width: 50%;
+        font-size: 20px;
+    }
+}
+.shop{
+    color: white;
+    display: flex;
+
+}
+.card-img-top{
+    aspect-ratio: 2/1;
+    object-fit: cover;
+
+}
+.head{
+    margin: 1%;
+    color:green;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.username{
+    font-size: 20px;
+    color:#b1152f;
+    margin-top: 4%;
+    font-weight: bold;
+}
+.pay{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 1%;
+    font-size: 20px;
+}
+.ten{
+    display: flex;
+    justify-content: center;
+}
+#contact{
+    background-color: #d1cecf;
+}
+.footer{
+    background-color: black;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.im{
+    width: 20%;
+    align-self: center;
+    padding: 2%;
+    text-align: center;
+    
+}
+.copy{
+    color:white;
+    text-align: center;
+}
+.icons{
+    color:crimson;
+    text-align: center;
+    font-size: 35px;
+}
+.icons:hover{
+    color: white;
+
+
+}

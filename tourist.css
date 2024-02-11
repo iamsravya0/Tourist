@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    
+}
+.bgimg{
+    background-image: url(https://www.bestbus.in/assets/images/news-cms/Delhi_Tourism.jpg);
+    width: 100vw;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    color:#f6f9f6;
+    font-size: 60px;
+    margin-left: -3%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para{
+    color:white;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+    
+    }
+.card-img-top{
+    aspect-ratio: 3/2;
+    object-fit: cover;
+
+}
+.Imager{
+   aspect-ratio: 4/3;
+}
+.head{
+    margin: 1%;
+    color:blueviolet;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.username{
+    font-size: 20px;
+    color:aquamarine;
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+.ten{
+    display: flex;
+    justify-content: center;
+}
+#contact{
+    background-color: #d1cecf;
+}
+.footer{
+    background-color: black;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.im{
+    width: 20%;
+    align-self: center;
+    padding: 2%;
+    text-align: center;
+    
+}
+.copy{
+    color:white;
+    text-align: center;
+}
+.icons{
+    color:crimson;
+    text-align: center;
+    font-size: 35px;
+}
+.icons:hover{
+    color: white;
+
+
+}

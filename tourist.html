@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Website</title>
+    <link rel="icon" href="https://img.freepik.com/free-photo/travel-concept-with-landmarks_23-2149153256.jpg" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./tourist.css" />
+    <script src="https://kit.fontawesome.com/88074a1b57.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid" style="margin-right: 40%;">
+            <a class="navbar-brand" href="#"><img
+                    src="https://img.freepik.com/free-photo/travel-concept-with-landmarks_23-2149153256.jpg" width="25%" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style=" margin-right: 100px;text-align: left;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home" style="font-weight: bold;
+                        font-size: 25px;">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#destinations" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: bold;
+                            font-size: 25px;margin-left: 5%;align-content: flex-start;">
+                            Destinations
+                        </a>
+
+                        <div class="dropdown-menu multi-column" aria-labelledby="navbarDropdown">
+                        <div class="container" style="display: flex;justify-content: flex-start;width: 70vw !important;margin-right: 50%;">
+                            <div class="row">
+                                <div class="col-12 col-md-2 col-lg-3">
+                                    <ul class="list-unstyled">
+                                        <li style="font-weight: bold; font-size: 15px;display: flex;justify-content: space-around;">North India</li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">New Delhi</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 0%;font-size: 7px;text-align: center;">Uttarpradesh</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Uttarakand</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Punjab</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 4%;font-size: 7px;text-align: center;">Rajastan</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Lucknow</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Chandigarh</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Atal Tunnel</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Shimla</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Naintal</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-2 col-lg-3">
+                                    <ul class="list-unstyled">
+                                        <li style="font-weight: bold; font-size: 15px;display: flex;justify-content: space-around;">South India</li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Mysore</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 0%;font-size: 7px;text-align: center;">Gokarna</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Coorg</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Banglore</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 4%;font-size: 7px;text-align: center;">Allepey</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Kochi</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Munnar</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Araku valley</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Rameswaram</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Coimbatore</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-2 col-lg-3">
+                                    <ul class="list-unstyled">
+                                        <li style="font-weight: bold; font-size: 15px;display: flex;justify-content: space-around;">East India</li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Gangtok</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 0%;font-size: 7px;text-align: center;">Shillong</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Konar</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Dooars</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 4%;font-size: 7px;text-align: center;">Ziro</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Kolkata</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Majuli</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Tawang</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Bodh gaya</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Gopalpur</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-2 col-lg-3">
+                                    <ul class="list-unstyled">
+                                        <li style="font-weight: bold; font-size: 15px;display: flex;justify-content: space-around;padding-right: 15%;">West India</li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Goa</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 0%;font-size: 7px;text-align: center;">Udaipur</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Jaipur</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Kutch</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 4%;font-size: 7px;text-align: center;">Diu</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Jaisalmer</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Bharthpur</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Mumbai</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Jodhpur</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Matherun</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-2 col-lg-3">
+                                    <ul class="list-unstyled">
+                                        <li style="font-weight: bold; font-size: 15px;display: flex;justify-content: space-around;
+                                        font-weight: bold;text-align: center;">Central India</li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Orchha</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 0%;font-size: 7px;text-align: center;">Bhedaghat</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Gwalior</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Khajuraho</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 4%;font-size: 7px;text-align: center;">Bhimbetka</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Mandu</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Pachmarhi</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Sanchi</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Shivpuri</a></li>
+                                        <li><a class="dropdown-item" href="#destinations" style="padding: 2%;font-size: 7px;text-align: center;">Ujjain</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" style="font-weight: bold;
+                            font-size: 25px;margin-left: 5%;">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#hotels" style="font-weight: bold;
+                            font-size: 25px;margin-left: 5%;">Hotels</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#payment"  id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false" style="font-weight: bold;
+                            font-size: 25px;margin-left: 5%;">
+                          Payment
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#payment">Online</a></li>
+                          <li><a class="dropdown-item" href="#payment">Offline</a></li>
+            
+                        </ul>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="font-weight: bold;
+                            font-size: 25px;margin-left: 5%;">Contact</a>
+                      </li>
+                   
+                                
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!--end navbar-->
+    <!--home section-->
+    <section class="bgimg" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="heading">My India Tour</h1>
+                    <p class="para"> Time spent in India has an extraordinary effect on one.<br/>
+                        It acts as a barrier that makes the rest of the world seem unreal.”</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Destination section-->
+    <section id="destionations" style="margin-top: 3%;margin-left: 0%;">
+      <h1 class="text-center head">DESTINATIONS</h1>
+      <div class="container w-50 mt-5">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner" style="justify-content: center;">
+                <div class="carousel-item active">
+                  <img src="https://static.toiimg.com/thumb/msid-89507240,width-748,height-499,resizemode=4,imgsize-300942/.jpg" class="Imager" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>North India</h5>
+                    
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/09/Mahabalipuram-1.jpg" class="Imager" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>South India</h5>
+                    
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://static2.tripoto.com/media/filter/tst/img/2953/TripDocument/5615880929_a407ab7957_b.jpg" class="Imager" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>East India</h>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.revv.co.in/blogs/wp-content/uploads/2020/03/places-to-visit-in-west-india.jpg" class="Imager" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>West India</h5>
+                    
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.holidaymystique.in/public/images/100950-Khajuraho-Chitragupta-Temple.jpg" class="Imager" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Central India</h5>
+                    
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+      </div>            
+  </section>
+
+    <!--About sec-->
+    <section id="about" style="margin-top: 3%;margin-left: 0%;">
+        <h1 class="text-center head">ABOUT</h1>
+        <div class="card-group">
+          <div class="card">
+            <img src="https://static.toiimg.com/thumb/msid-89507240,width-748,height-499,resizemode=4,imgsize-300942/.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">North India</h5>
+              <p class="card-text">Freedom is never dear at any price. It is the breath of life. What would a man not pay for living</p>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://www.india.com/wp-content/uploads/2018/08/11travel-karnataka-hampi.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">South India</h5>
+              <p class="card-text">So long as you do not achieve social liberty, whatever freedom is provided by the law is of now avail to you</p>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://as1.ftcdn.net/v2/jpg/03/69/63/78/1000_F_369637808_XoRjwImcNjDUExLyBdAcaACMnNK4e031.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">East India</h5>
+              <p class="card-text">Citizenship consists in the service of the country</p>
+             
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://static.toiimg.com/photo/msid-90154770,width-96,height-65.cms"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">West India</h5>
+              <p class="card-text">Every citizen of India must remember that... he is an Indian and he has every right in this country but with certain... duties.</p>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://www.authenticindiatours.com/app/uploads/2022/05/Mughal-architecture-Gwalior-fort.-Gwalior-Madhya-Pradesh-India-min-1400x550-c-default.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Central India</h5>
+              <p class="card-text">In attaining our ideals, our means should be as pure as the end.</p>
+             
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="hotels" style="margin-top: 3%;margin-left: 0%;">
+        <h1 class="text-center head">HOTELS</h1>
+        <div class="container w-50 mt-5">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner" style="justify-content: center;">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://theasiacollective.com/wp-content/uploads/2020/03/Evolve-Back-Hampi-3.jpg" class="Imager" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>North India Hotel</h5>
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://www.specialholidays.com/blog/wp-content/uploads/2021/04/itc-grand-chola-chennai-tamil-nadu.jpg" class="Imager" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>South India Hotel</h5>
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://i0.wp.com/privatetraveldesigner.in/wp-content/uploads/2020/11/1462773_10152467804629097_344591201_o.jpg?resize=720%2C480&ssl=1" class="Imager" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>East India Hotel</h>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/283093044.jpg?k=784523c7401d8208c67d87068bd0ef5292a546f6020329ca0c04e9f1ef53da27&o=&hp=1" class="Imager" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>West India Hotel</h5>
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://www.originaltravel.co.uk/travel-blog/ShowPhoto/1569/0" class="Imager" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Central India Hotel</h5>
+                      
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>            
+    </section>
+    <!--payment-->
+    <section id="payment">
+        <h1 class="text-center head">Payment</h1>
+        <div class="container">
+          <div class="row">
+    
+            <div class="col-12 col-md-7 order-md-1 order-sm-2">
+              <label for="validationCustom01" class="form-label username">User name</label>
+              <input type="text" class="form-control" id="validationCustom01" value="Mark" required><br />
+    
+              <div class="input-group mb-3">
+                <label class="pay" for="inputGroupSelect01">Payments</label>
+                <select class="form-select" id="inputGroupSelect01">
+                  <option selected>Cards</option>
+                  <option value="1">UPI</option>
+                  <option value="2">Net Banking</option>
+                  <option value="3">Debit/Credit Card</option>
+                </select>
+              </div>
+              <button class="btn btn-primary w-50" style="font-size: 20px;">Payment <i class="fa-brands fa-cc-mastercard"
+                  style="padding-left: 1%;"></i></button>
+    
+    
+            </div>
+            <div class="col-12 col-md-5 order-md-2 order-sm-1 ten">
+              <img src="https://www.shutterstock.com/image-illustration/30-percent-off-3d-sign-260nw-1218851857.jpg"
+                width="70%" />
+    
+            </div>
+          </div>
+    
+        </div>
+      </section>
+    <!--Contact section-->
+    <section id="contact" style="margin-top: 3%;margin-left: -1%;">
+        <h1 class="text-center head">CONTACT</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4 mt-4">
+              <!--map-->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7531538.191956829!2d80.02791967888739!3d22.820654912839824!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1706299642641!5m2!1sen!2sin" 
+              width="400" height="400" style="border:0;" allowfullscreen="" 
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <!--contact section-->
+            </div>
+            <div class="col-12 col-md-8">
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label username">Username</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label username">Email</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label username">Suggestions</label>
+                <textarea cols="100" placeholder="comments">Comments</textarea>
+              </div>
+              <button class="btn btn-success">Send</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="container foot">
+          <div class="row">
+            <center>
+              <img
+                src="https://img.freepik.com/free-photo/travel-concept-with-landmarks_23-2149153256.jpg"
+                class="im" />
+            </center>
+            <h5 class="copy">@COPYRIGHT My Tour</h5>
+            <div class="col-12 icons">
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-square-threads"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+            </div>
+          </div>
+    
+        </div>
+      </section>
+      <div style="position: fixed;left: 0;bottom: 0;">
+        <a href="#">
+        <i class="fa-solid fa-arrow-up" style="font-size: 20px; padding: 1%;color:aqua;"></i></a>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
